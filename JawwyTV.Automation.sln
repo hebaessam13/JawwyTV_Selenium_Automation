@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawwyTV.Automation", "JawwyTV.Automation\JawwyTV.Automation.csproj", "{B8178004-A567-4AFC-AFBF-975487DA6D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawwyTV.Automation.Test", "JawwyTV.Automation.Test\JawwyTV.Automation.Test.csproj", "{AC803629-EC24-450B-A495-3A5BB51B5FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8178004-A567-4AFC-AFBF-975487DA6D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8178004-A567-4AFC-AFBF-975487DA6D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8178004-A567-4AFC-AFBF-975487DA6D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8178004-A567-4AFC-AFBF-975487DA6D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC803629-EC24-450B-A495-3A5BB51B5FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC803629-EC24-450B-A495-3A5BB51B5FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC803629-EC24-450B-A495-3A5BB51B5FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC803629-EC24-450B-A495-3A5BB51B5FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48427FD9-40E8-493F-A3DF-B525D4E344F2}
+	EndGlobalSection
+EndGlobal

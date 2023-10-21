@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="JawwyTV.Automation.Test.dll" fullname="D:\JawwyTV_Selenium_Automation\JawwyTV.Automation.Test\bin\Debug\JawwyTV.Automation.Test.dll" runstate="Runnable" testcasecount="6" result="Passed" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78" engine-version="3.15.4.0" clr-version="4.0.30319.42000" start-time="2023-10-21 03:06:33Z" end-time="2023-10-21 03:12:06Z" duration="332.454061">
+  <command-line><![CDATA["C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\..//testhost.net472.x86.exe"  --port 51905 --endpoint 127.0.0.1:051905 --role client --parentprocessid 17060 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Chrome,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Chrome,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Chrome,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Edge,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Edge,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+      <test>JawwyTV.Automation.Test.Tests.TestPlans(Edge,"1366,768").Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1016" name="JawwyTV.Automation.Test.dll" fullname="D:\JawwyTV_Selenium_Automation\JawwyTV.Automation.Test\bin\Debug\JawwyTV.Automation.Test.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.0461332Z" end-time="2023-10-21T03:12:06.3590124Z" duration="332.311151" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+    <environment framework-version="3.13.3.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19045.0" platform="Win32NT" cwd="D:\JawwyTV_Selenium_Automation\JawwyTV.Automation.Test\bin\Debug" machine-name="DESKTOP-A7CAIS1" user="Heba Essam" user-domain="DESKTOP-A7CAIS1" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="InternalTraceLevel" value="Off" />
+      <setting name="RandomSeed" value="1009607062" />
+      <setting name="TestParametersDictionary" value="[BaseUrl, https://subscribe.jawwy.tv/eg-en]">
+        <item key="BaseUrl" value="https://subscribe.jawwy.tv/eg-en" />
+      </setting>
+      <setting name="TestParameters" value="BaseUrl=https://subscribe.jawwy.tv/eg-en" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\JawwyTV_Selenium_Automation\JawwyTV.Automation.Test\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.7.2" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="19176" />
+      <property name="_APPDOMAIN" value="domain-ae2c7db6-JawwyTV.Automation.Test.dll" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1017" name="JawwyTV" fullname="JawwyTV" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.0946121Z" end-time="2023-10-21T03:12:06.3590124Z" duration="332.264667" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+      <test-suite type="TestSuite" id="0-1018" name="Automation" fullname="JawwyTV.Automation" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.1027869Z" end-time="2023-10-21T03:12:06.3590124Z" duration="332.255416" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+        <test-suite type="TestSuite" id="0-1019" name="Test" fullname="JawwyTV.Automation.Test" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.1037879Z" end-time="2023-10-21T03:12:06.3580118Z" duration="332.255103" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+          <test-suite type="TestSuite" id="0-1021" name="Tests" fullname="JawwyTV.Automation.Test.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.1037879Z" end-time="2023-10-21T03:12:06.3580118Z" duration="332.254700" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+            <test-suite type="ParameterizedFixture" id="0-1015" name="TestPlans" fullname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" testcasecount="6" result="Passed" start-time="2023-10-21T03:06:34.1037879Z" end-time="2023-10-21T03:12:06.3580118Z" duration="332.253905" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="78">
+              <test-suite type="TestFixture" id="0-1003" name="TestPlans(Chrome,&quot;1366,768&quot;)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Chrome,&quot;1366,768&quot;)" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-10-21T03:06:34.1097873Z" end-time="2023-10-21T03:09:04.8694424Z" duration="150.759350" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="39">
+                <test-suite type="ParameterizedMethod" id="0-1008" name="Subscription_Plans_ValidPlansDetails" fullname="JawwyTV.Automation.Test.Tests.TestPlans.Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-10-21T03:06:34.2691916Z" end-time="2023-10-21T03:07:32.8726229Z" duration="58.603878" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="39">
+                  <test-case id="0-1005" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Chrome,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="719525539" result="Passed" start-time="2023-10-21T03:06:34.2703252Z" end-time="2023-10-21T03:06:51.5536013Z" duration="17.284487" asserts="13">
+                    <output><![CDATA[2023-10-21 06:06:35.7072 INFO ------------------STARTING NEW TEST :Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan) ------------------
+2023-10-21 06:06:44.9896 INFO Go to App Perferences
+2023-10-21 06:06:44.9896 INFO Changing Country to UAE
+2023-10-21 06:06:48.5339 INFO Asserting Country has been updated
+2023-10-21 06:06:49.1748 INFO Getting Plans Prices
+2023-10-21 06:06:49.3059 INFO Asserting Lists are equal
+2023-10-21 06:06:49.3059 INFO Getting Plans Prices currency
+2023-10-21 06:06:49.4183 INFO Asserting Lists are equal
+2023-10-21 06:06:49.4183 INFO Getting Plans types
+2023-10-21 06:06:49.4832 INFO Asserting Lists are equal
+]]></output>
+                  </test-case>
+                  <test-case id="0-1006" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Chrome,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="987703658" result="Passed" start-time="2023-10-21T03:06:51.5896375Z" end-time="2023-10-21T03:07:07.5882210Z" duration="15.998646" asserts="13">
+                    <output><![CDATA[2023-10-21 06:06:51.5906 INFO ------------------STARTING NEW TEST :Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan) ------------------
+2023-10-21 06:07:01.5857 INFO Go to App Perferences
+2023-10-21 06:07:01.5857 INFO Changing Country to Egypt
+2023-10-21 06:07:03.9235 INFO Asserting Country has been updated
+2023-10-21 06:07:04.3558 INFO Getting Plans Prices
+2023-10-21 06:07:04.5838 INFO Asserting Lists are equal
+2023-10-21 06:07:04.5838 INFO Getting Plans Prices currency
+2023-10-21 06:07:04.8651 INFO Asserting Lists are equal
+2023-10-21 06:07:04.8651 INFO Getting Plans types
+2023-10-21 06:07:05.0111 INFO Asserting Lists are equal
+]]></output>
+                  </test-case>
+                  <test-case id="0-1007" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Chrome,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="279665855" result="Passed" start-time="2023-10-21T03:07:07.5892761Z" end-time="2023-10-21T03:07:32.8499804Z" duration="25.260461" asserts="13">
+                    <output><![CDATA[2023-10-21 06:07:07.5965 INFO ------------------STARTING NEW TEST :Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan) ------------------
+2023-10-21 06:07:20.9293 INFO Go to App Perferences
+2023-10-21 06:07:20.9293 INFO Changing Country to Algeria
+2023-10-21 06:07:25.2457 INFO Asserting Country has been updated
+2023-10-21 06:07:25.8368 INFO Getting Plans Prices
+2023-10-21 06:07:26.5202 INFO Asserting Lists are equal
+2023-10-21 06:07:26.5202 INFO Getting Plans Prices currency
+2023-10-21 06:07:26.7482 INFO Asserting Lists are equal
+2023-10-21 06:07:26.7482 INFO Getting Plans types
+2023-10-21 06:07:26.8890 INFO Asserting Lists are equal
+]]></output>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+              <test-suite type="TestFixture" id="0-1009" name="TestPlans(Edge,&quot;1366,768&quot;)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Edge,&quot;1366,768&quot;)" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-10-21T03:09:04.8824859Z" end-time="2023-10-21T03:12:06.3570041Z" duration="181.474898" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="39">
+                <test-suite type="ParameterizedMethod" id="0-1014" name="Subscription_Plans_ValidPlansDetails" fullname="JawwyTV.Automation.Test.Tests.TestPlans.Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-10-21T03:09:04.9000583Z" end-time="2023-10-21T03:12:06.3105417Z" duration="181.410625" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="39">
+                  <test-case id="0-1011" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Edge,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="975824520" result="Passed" start-time="2023-10-21T03:09:04.9000583Z" end-time="2023-10-21T03:09:52.5435497Z" duration="47.643276" asserts="13" />
+                  <test-case id="0-1012" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Edge,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="895069896" result="Passed" start-time="2023-10-21T03:09:52.5703192Z" end-time="2023-10-21T03:11:02.8125669Z" duration="70.241451" asserts="13" />
+                  <test-case id="0-1013" name="Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" fullname="JawwyTV.Automation.Test.Tests.TestPlans(Edge,&quot;1366,768&quot;).Subscription_Plans_ValidPlansDetails(JawwyTV.Automation.Test.Models.SubscriptionPlan)" methodname="Subscription_Plans_ValidPlansDetails" classname="JawwyTV.Automation.Test.Tests.TestPlans" runstate="Runnable" seed="1353550349" result="Passed" start-time="2023-10-21T03:11:02.8276968Z" end-time="2023-10-21T03:12:06.3088302Z" duration="63.480988" asserts="13" />
+                </test-suite>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
