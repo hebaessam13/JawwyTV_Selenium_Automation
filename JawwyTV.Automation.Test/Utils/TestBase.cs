@@ -4,6 +4,7 @@ using static JawwyTV.Automation.Browser.Driver;
 using static JawwyTV.Automation.Utils.HelperMethods;
 using JawwyTV.Automation.Utils;
 
+[assembly: Parallelizable(ParallelScope.All),LevelOfParallelism(2)]
 namespace JawwyTV.Automation.Test.Utils
 {
     [TestFixture(BrowserType.Chrome, Resolutions.MostCommonRes)]

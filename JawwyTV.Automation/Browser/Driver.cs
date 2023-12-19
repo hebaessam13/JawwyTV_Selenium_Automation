@@ -8,7 +8,10 @@ namespace JawwyTV.Automation.Browser
 {
     public static class Driver
     {
+        [ThreadStatic]
         private static IWebDriver s_driver;
+        [ThreadStatic]
+        public static WebDriverWait DriverWait;
         public static IWebDriver Current
         {
             get
@@ -16,7 +19,6 @@ namespace JawwyTV.Automation.Browser
                 return s_driver ?? throw new Exception("Driver is null.");
             }
         }
-        public static WebDriverWait DriverWait;
         public enum BrowserType
         {
             Chrome,
